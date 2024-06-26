@@ -40,30 +40,31 @@ public class BinanceComExchange extends BinanceExchange {
         SUPPORTED_FIATS.add(CryptoCurrency.USDC.getCode());
         SUPPORTED_FIATS.add(CryptoCurrency.USDT.getCode());
 
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BAT.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BCH.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BNB.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BTC.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.CLOAK.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.DASH.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.DOGE.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.ETH.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.GRS.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.KMD.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.LSK.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.LTC.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.NANO.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.NULS.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.PAXG.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.REP.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.SYS.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.TRX.getCode(), new BigDecimal("0.000001")));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.USDS.getCode(), new BigDecimal("0.000001")));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.USDT.getCode(), new BigDecimal("0.000001")));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.VIA.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XMR.getCode()));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XRP.getCode(), new BigDecimal("0.000001")));
-        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XZC.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BAT.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BCH.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BNB.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.BTC.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.CLOAK.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.DASH.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.DOGE.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.ETH.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.GRS.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.KMD.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.LSK.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.LTC.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.NANO.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.NULS.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.PAXG.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.REP.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.SYS.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.TRX.getCode(), new BigDecimal("0.000001")));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.USDS.getCode(), new BigDecimal("0.000001")));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.USDT.getCode(), new BigDecimal("0.000001")));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.VIA.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XMR.getCode()));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XRP.getCode(), new BigDecimal("0.000001")));
+        // SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.XZC.getCode()));
+        SUPPORTED_CRYPTOS.add(new SupportedCryptoCurrency(CryptoCurrency.APE.getCode()));
     }
 
     public BinanceComExchange(String preferredFiatCurrency) {

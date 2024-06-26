@@ -125,6 +125,7 @@ public enum CryptoCurrency {
     MUE("MonetaryUnit"),
     XPM("Primecoin"),
     ZPAE("ZelaaPayAE"),
+    APE("APE Coin"), // ERC-20 (ethereum) based
 
     TBCH("test BCH"),
     TBTC("test BTC"),

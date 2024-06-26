@@ -719,6 +719,7 @@
             <cryptocurrency>XMR</cryptocurrency>
             <cryptocurrency>XRP</cryptocurrency>
             <cryptocurrency>XZC</cryptocurrency>
+            <cryptocurrency>APE</cryptocurrency>
         </exchange>
         <ratesource prefix="binancecom" name="Binance.com">
             <param name="fiatcurrency" />
@@ -2144,6 +2145,16 @@
             <cryptocurrency>ZPAE</cryptocurrency>
         </wallet>
         <cryptologo cryptocurrency="ZPAE" file="zpae.png"/>
+        <wallet prefix="infuraERC20_APE_18_0x4d224452801aced8b2f0aebe155379bb5d594381" name="Infura.io wallet - APE">
+            <param name="projectId" />
+            <param name="mnemonic" />
+            <param name="gaslimit" />
+            <param name="gasPriceMultiplier" />
+            <help>Mnemonic should be 24 words delimited by spaces. gaslimit is optional. gasPriceMultiplier (optional) is used to multiply the estimated gas price, e.g. "1.1" for higher priority or "0.9" for lower.</help>
+            <cryptocurrency>APE</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="APE" file="bizz.png"/>
+        <cryptologo cryptocurrency="APE" file="bizz.svg"/>
         <wallet prefix="infuraERC20_USDT_6_0xdac17f958d2ee523a2206206994597c13d831ec7" name="Infura.io wallet - USDT">
             <!-- Hint: infuraERC20_TOKENSYMBOL_DECIMALPLACES_CONTRACTADDRESS -->
             <param name="projectId" />
